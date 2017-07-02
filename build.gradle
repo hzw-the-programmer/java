@@ -1,3 +1,10 @@
+description = """
+Example project for a Gradle build
+
+Project name: ${project.name}
+
+More detailed information here..."""
+
 // gradle hello
 /* gradle -q hello */
 task hello {
