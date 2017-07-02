@@ -1,0 +1,7 @@
+// gradle hello
+/* gradle -q hello */
+task hello {
+  doLast {
+   println 'Hello Gradle'
+  }
+}
